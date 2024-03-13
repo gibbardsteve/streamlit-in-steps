@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "streamlit-in-steps"
+version = "0.1.0"
+description = ""
+authors = ["Steve Gibbard <steve.gibbard@ons.gov.uk>"]
+readme = "README.md"
+packages = [{include = "streamlit_in_steps", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.32.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
